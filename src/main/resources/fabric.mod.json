@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "donut_ac_test",
+  "version": "${version}",
+  "name": "Donut AC Test Client",
+  "description": "Visible, client-side diagnostics for authorized anti-cheat testing.",
+  "authors": ["D'Moy"],
+  "license": "ARR",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.donuttest.DonutTestServer"],
+    "client": ["com.donuttest.client.DonutTestClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
